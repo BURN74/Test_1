@@ -60,14 +60,14 @@ public class Start001 {
         WebElement emailTextBox = wd.findElement(By.cssSelector("[placeholder='Email']"));
         emailTextBox.click();
         emailTextBox.clear();
-        emailTextBox.sendKeys("alex@gmail.com");
+        emailTextBox.sendKeys("alex1@gmail.com");
         // fill valid password
         WebElement passwordtextBox = wd.findElement(By.cssSelector("[placeholder='Password']"));
         passwordtextBox.click();
         passwordtextBox.clear();
-        passwordtextBox.sendKeys("Alex12345$");
+        passwordtextBox.sendKeys("Aalex12345$");
         // click login button
-        List<WebElement> loginButton = wd.findElements(By.cssSelector("body > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > button:nth-child(6)"));
+        List<WebElement> loginButton = wd.findElements(By.cssSelector(".login_login__3EHKB"));
         loginButton.clear();
 
     }
